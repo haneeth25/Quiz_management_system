@@ -10,7 +10,7 @@ END;
 SELECT * FROM SCHEDULE_TABLE;
 SELECT * FROM RESULTS_TABLE WHERE quiz_id = 'qz20240621053109423' AND USER_ID = 'u20240610034852694';
 
--- Procedure to 
+-- Procedure to check quiz status of a particular student
 
 CREATE OR REPLACE PROCEDURE student_quiz_status (
     c_user_id IN users_table.user_id%type,
