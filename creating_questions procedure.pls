@@ -61,7 +61,7 @@ BEGIN
 
     INSERT INTO questions_table VALUES (question_id, c_question, c_answer, c_explanation, temp_difficulty_id, temp_format_id, c_options);
     INSERT INTO topic_question_table VALUES (temp_topic_id, question_id);
-    DBMS_OUTPUT.PUT_LINE('successs');
+    DBMS_OUTPUT.PUT_LINE('successsfully inserted the questions in QUESTIONS_TABLE..!!');
 
 EXCEPTION
     WHEN creating_question_exception THEN

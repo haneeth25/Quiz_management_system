@@ -1,3 +1,5 @@
+----------procedure to view particular student score in given quiz_id
+
 CREATE OR REPLACE PROCEDURE instructor_user_score(
     c_instructor_id INSTRUCTOR_TABLE.instructor_id%type,
     c_user_id USERS_TABLE.user_id%type
