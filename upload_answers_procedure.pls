@@ -154,7 +154,6 @@ BEGIN
     END LOOP;
 END;
 
-
 BEGIN
     upload_answers('qz20240610085218997');
     -- DBMS_OUTPUT.PUT_LINE();
