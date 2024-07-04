@@ -79,7 +79,7 @@ BEGIN
 END;
 SELECT * FROM TOPICS_TABLE;
 
-
+----------- checking current user procedure
 
 create or replace function user_id return varchar2 is
     l_username VARCHAR2(100);
